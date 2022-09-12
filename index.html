@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-</head>
-<body>
-<h1>LOGO</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Taste of Cybersecurity</title>
+  </head>
+  <body>
+    <div class="logo-section">
+      <div class="powered">
+        Powered by
+      </div>
+      <img class="logo" src="/assets/images/thrive-logo.png" />
+    </div>
+    <p>
+      The Cyber Security Bootcamp is an innovative hands-on training program that combines live online sessions and self-guided learning. Get a free taste of cybersecurity by filling out the form below.
+    </p>
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+  <script charset="utf-8" type="text/javascript" src="/shell.js"></script>
+  <script>
+    hbspt.forms.create({
+      region: "na1",
+      portalId: "2714581",
+      formId: "ec8eece9-cab6-4ea0-ad32-5cd6e2e9e4e3",
+      onFormReady: function() {
+        const iframe = document.getElementById('hs-form-iframe-0');
+        iframe.contentWindow.document.querySelectorAll('label').forEach(label => label.style.color = '#FFF');
+        iframe.contentWindow.document.querySelectorAll('.hs-richtext').forEach(text => text.style.color = 'white');
+      }
+    });
+  </script>
 </html>
-
-<script
-  src="https://code.jquery.com/jquery-3.6.1.js"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
-<script charset="utf-8" type="text/javascript" src="/hubspot_poc/shell.js"></script>
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "2714581",
-    formId: "ec8eece9-cab6-4ea0-ad32-5cd6e2e9e4e3"
-  });
-
-</script>
