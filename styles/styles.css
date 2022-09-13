@@ -19,8 +19,23 @@ body {
   flex-direction: column;
 }
 
-.logo-section {
+.enroll {
+  display: flex;
   width: 50%;
+  font-size: 2vw;
+  font-weight: 700;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-section {
+  width: 35%;
+  text-align: left;
 }
 
 p {
@@ -30,9 +45,9 @@ p {
 
 .powered {
   color: #FFF;
+  opacity: 0.3;
   font-size: 1.5vw;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .hbspt-form {
