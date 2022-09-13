@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Inter;
-  src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+  font-family: Industry;
+  src: url('../assets/fonts/Industry-Medium.otf');
 }
 
 html {
@@ -9,7 +9,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-family: 'Inter';
+  font-family: 'Industry';
   color: #FFF;
 }
 
