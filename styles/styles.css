@@ -33,9 +33,21 @@ body {
   justify-content: flex-end;
 }
 
+.bottom-block {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
 .logo-section {
   width: 35%;
   text-align: left;
+}
+
+.logo-section-block {
+  width: 70%;
+  text-align: left;
+  margin-left: 50vw;
 }
 
 p {
@@ -50,6 +62,13 @@ p {
   margin-top: 1rem;
 }
 
+.powered-block {
+  color: #FFF;
+  font-size: 4.5vw;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .hbspt-form {
   width: 50%;
 }
@@ -57,4 +76,20 @@ p {
 .logo {
   width: 30%;
   height: auto;
+}
+
+.logo-block {
+  width: 35vw;
+  height: auto;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  text-align: center;
+  font-size: 7vw;
+  font-weight: bold;
+  margin-top: 10rem;
 }
