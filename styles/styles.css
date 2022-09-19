@@ -22,7 +22,7 @@ body {
 .enroll {
   display: flex;
   width: 50%;
-  font-size: 2vw;
+  font-size: 2rem;
   font-weight: 700;
   justify-content: flex-start;
   margin-bottom: 2rem;
@@ -34,20 +34,16 @@ body {
 }
 
 .logo-section {
-  width: 35%;
+  width: 0%;
   text-align: left;
-}
-
-p {
-  width: 50%;
-  font-size: 1.5vw;
 }
 
 .powered {
   color: #FFF;
   opacity: 0.3;
-  font-size: 1.5vw;
+  font-size: 2.6vw;
   margin-top: 1rem;
+  width: 16vw;
 }
 
 .hbspt-form {
@@ -55,6 +51,6 @@ p {
 }
 
 .logo {
-  width: 30%;
+  width: 20vw;
   height: auto;
 }
